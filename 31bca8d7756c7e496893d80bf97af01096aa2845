@@ -16,6 +16,24 @@
       "message": "Why are you using prebuilt health libs in the first place?",
       "revId": "31bca8d7756c7e496893d80bf97af01096aa2845",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9895329d_85ffe47f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-03-21T07:06:48Z",
+      "side": 1,
+      "message": "If I build health HAL from source, quick charging will be broken. So it is always there since the beginning, but I\u0027ll figure what\u0027s going on in there later.",
+      "parentUuid": "b066bd0d_3ed409d9",
+      "revId": "31bca8d7756c7e496893d80bf97af01096aa2845",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
