@@ -16,6 +16,24 @@
       "message": "Don\u0027t blindly pick this and the next commit if your device doesn\u0027t need them btw",
       "revId": "374dc5f493acc21ffa7f44372895c1b5cf2a68ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b8141a4_78631160",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-04-08T12:52:29Z",
+      "side": 1,
+      "message": "Uhh no it\u0027s not blindly, AIDL bootctrl screwed up slot switching on Nokia 8998 too - I found it recently",
+      "parentUuid": "1fd4fc2c_1ea6ade8",
+      "revId": "374dc5f493acc21ffa7f44372895c1b5cf2a68ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
