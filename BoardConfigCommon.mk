@@ -78,7 +78,7 @@ BOARD_USES_ADRENO := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_nokia
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_nokia)
 TARGET_RECOVERY_DEVICE_MODULES := libinit_nokia
 
 # HIDL

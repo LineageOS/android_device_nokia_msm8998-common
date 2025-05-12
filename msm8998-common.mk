@@ -169,6 +169,9 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_nokia)
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
