@@ -77,9 +77,6 @@ BOARD_USES_ADRENO := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
-# Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_nokia)
-
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
