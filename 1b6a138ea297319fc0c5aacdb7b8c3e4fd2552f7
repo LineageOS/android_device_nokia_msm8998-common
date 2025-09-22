@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "523e50c6_52c33369",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-22T16:10:40Z",
+      "side": 1,
+      "message": "You could just drop this commit, since you\u0027re getting rid of libinit later on.",
+      "revId": "1b6a138ea297319fc0c5aacdb7b8c3e4fd2552f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
