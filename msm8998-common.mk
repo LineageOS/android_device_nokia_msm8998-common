@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
     gnss_antenna_info.conf \
     gps.conf
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health-service.qti
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
