@@ -1,0 +1,3 @@
+# Offline charging workaround
+on charger
+    setprop debug.fdsan warn_once

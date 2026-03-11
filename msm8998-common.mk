@@ -328,12 +328,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     ueventd.qcom.rc
 
-ifeq ($(filter NB1,$(shell echo $(TARGET_PRODUCT) | sed 's/^lineage_//')),)
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
-    $(COMMON_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.qcom
-endif
-
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
